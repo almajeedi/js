@@ -11,7 +11,7 @@ function carregaCSS(){
 }
 
 function getInfo(info) {
-    var script = document.querySelectorAll("script[src='https://lucianobragaweb.github.io/whatsapp-button/whatsapp.js']");
+var script = document.querySelectorAll("script[src='https://raw.githubusercontent.com/almajeedi/js/master/whatsapp.js']");
     var info = script[0].getAttribute(info);
 
     return info;
