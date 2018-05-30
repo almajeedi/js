@@ -11,7 +11,7 @@ function carregaCSS(){
 }
 
 function getInfo(info) {
-    var script = document.querySelectorAll("script[src='https://lucianobragaweb.github.io/whatsapp-button/whatsapp.js']");
+    var script = document.querySelectorAll("script[src='https://raw.githubusercontent.com/almajeedi/js/master/whatsapp.js']");
     var info = script[0].getAttribute(info);
 
     return info;
@@ -29,7 +29,7 @@ function montar(){
     var montagem =  '<div id="wb-widget">' +
                         '<div id="wb-message">' + message + '</div>' +
                         '<div id="wb-btn">' +
-                            '<a href="https://web.whatsapp.com/send?phone=00966531804957"' + number + '&text=' + message + '" target="_BLANCK">' +
+                            '<a href="https://api.whatsapp.com/send?phone=00966531804957"' + number + '&text=' + message + '" target="_BLANCK">' +
                                 '<img id="wb-icon" src="https://lucianobragaweb.github.io/whatsapp-button/whatsapp-button.png" alt="Botão WhatsApp">' +
                             '</a>' +
                         '</div>' +
