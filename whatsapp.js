@@ -2,7 +2,7 @@ function carregaCSS(){
 	var file = location.pathname.split( "/" ).pop();
 
 	var link = document.createElement( "link" );
-        link.href   = "https://lucianobragaweb.github.io/whatsapp-button/style.css";
+        link.href   = "https://raw.githubusercontent.com/almajeedi/js/master/style.css";
         link.type   = "text/css";
         link.rel    = "stylesheet";
         link.media  = "screen,print";
@@ -29,7 +29,7 @@ function montar(){
     var montagem =  '<div id="wb-widget">' +
                         '<div id="wb-message">' + message + '</div>' +
                         '<div id="wb-btn">' +
-                            '<a href="https://web.whatsapp.com/send?phone=' + number + '&text=' + message + '" target="_BLANCK">' +
+                            '<a href="https://web.whatsapp.com/send?phone=00966531804957"' + number + '&text=' + message + '" target="_BLANCK">' +
                                 '<img id="wb-icon" src="https://lucianobragaweb.github.io/whatsapp-button/whatsapp-button.png" alt="Botão WhatsApp">' +
                             '</a>' +
                         '</div>' +
